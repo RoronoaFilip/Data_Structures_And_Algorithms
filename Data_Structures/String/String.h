@@ -4,12 +4,12 @@
 #include <cstring>
 #include <iostream>
 
-class FilipString {
+class String {
   char *data;
   size_t size;
 
   //* Copy Function for dynamic Memory
-  void copyFrom(const FilipString &other);
+  void copyFrom(const String &other);
 
   //* Delete all of the dynamic Memory
   void free();
@@ -19,41 +19,41 @@ public:
   //! Constructor, Destructor, (Move)Operator=, Copy/Move Constructor
 
   //* Default Constructor
-  FilipString();
+  String();
 
   //* Constructor to set the String
-  FilipString(const char *newString);
+  String(const char *newString);
 
   //* Copy Constructor
-  FilipString(const FilipString &other);
+  String(const String &other);
 
   //* Operator=
-  FilipString &operator=(const FilipString &other);
+  String &operator=(const String &other);
 
   //* Move Constructor
-  FilipString(FilipString &&other);
+  String(String &&other);
 
   //* Move operator=
-  FilipString &operator=(FilipString &&other);
+  String &operator=(String &&other);
 
   //* Destructor
-  ~FilipString();
+  ~String();
 
   //
   //
   //! ===========================================================
   //* Operators
-  FilipString &operator+=(const FilipString &other);
-  FilipString &operator+=(const char other);
-  bool operator==(const FilipString &other) const;
-  bool operator!=(const FilipString &other) const;
-  bool operator<(const FilipString &other) const;
-  bool operator<=(const FilipString &other) const;
-  bool operator>(const FilipString &other) const;
-  bool operator>=(const FilipString &other) const;
-  friend std::istream &operator>>(std::istream &stream, FilipString &myString);
+  String &operator+=(const String &other);
+  String &operator+=(const char other);
+  bool operator==(const String &other) const;
+  bool operator!=(const String &other) const;
+  bool operator<(const String &other) const;
+  bool operator<=(const String &other) const;
+  bool operator>(const String &other) const;
+  bool operator>=(const String &other) const;
+  friend std::istream &operator>>(std::istream &stream, String &myString);
   friend std::ostream &operator<<(std::ostream &stream,
-                                  const FilipString &myString);
+                                  const String &myString);
 
   //! Care For Exceptions
   char operator[](const size_t index);
@@ -70,7 +70,7 @@ public:
   int getSize() const;
 
   //* Set a new String
-  void setString(const FilipString &other);
+  void setString(const String &other);
 
   //* Get a const Pointer to the String
   const char *getCharPointer() const;
@@ -85,19 +85,19 @@ public:
 
   //* Get a Substring from the String
   //! start and end are INDEXES!
-  FilipString substring(const size_t start, const size_t end) const;
+  String substring(const size_t start, const size_t end) const;
 
   //* Check if String is empty
   bool isEmpty() const;
 
   //* Swap constents with Other
-  void swap(FilipString &other);
+  void swap(String &other);
 
   //* Concatenate 2 Strings
-  void concatenate(const FilipString &other);
+  void concatenate(const String &other);
 
   //* Add a String to the End
-  void push_back(const FilipString &other);
+  void push_back(const String &other);
 
   //* Add a Symbol to the End
   void push_back(const char add);
@@ -109,4 +109,4 @@ public:
   void clear();
 };
 
-FilipString operator+(const FilipString &lhs, const FilipString &rhs);
+String operator+(const String &lhs, const String &rhs);
