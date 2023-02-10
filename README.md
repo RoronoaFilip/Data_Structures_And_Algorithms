@@ -67,8 +67,8 @@
 ## 2022/2023
 Домашни работи|Контролни Работи|Изпит|
 :-:|:-:|:-:
-[**Домашно 1**](https://www.hackerrank.com/sda-hw-1-2022)|[**Контролно 1**](https://www.hackerrank.com/sda-test1-2022-2023)|[**Изпит**]()
-[**Домашно 2**](https://www.hackerrank.com/sda-hw-2-2022)|[**Контролно 2**](https://www.hackerrank.com/contests/sda-test-2022-2023-wdfgs/challenges)
+[**Домашно 1**](https://www.hackerrank.com/sda-hw-1-2022)|[**Контролно 1**](https://www.hackerrank.com/sda-test1-2022-2023)|[**Изпит Част 1**](https://www.hackerrank.com/sda-exam-20222023-part-1)
+[**Домашно 2**](https://www.hackerrank.com/sda-hw-2-2022)|[**Контролно 2**](https://www.hackerrank.com/contests/sda-test-2022-2023-wdfgs/challenges)|[**Изпит Част 2**](https://www.hackerrank.com/sda-exam-20222023-part-2 )
 [**Домашно 3**](https://www.hackerrank.com/sda-hw-3-2022)|[**Контролно 3**](https://www.hackerrank.com/contests/sda-test3-2022-2023-rdsafgtvh/challenges/)
 [**Домашно 4**](https://www.hackerrank.com/sda-hw-4-2022)|[**Контролно 4**](https://www.hackerrank.com/contests/sda-test4-2022-2023-343rrsdfs/challenges)
 [**Домашно 5**](https://www.hackerrank.com/sda-hw-5-2022)|[**Контролно 5**](https://www.hackerrank.com/sda-test5-2022-2023-43wdst52 )
